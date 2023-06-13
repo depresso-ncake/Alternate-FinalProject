@@ -82,12 +82,12 @@
 
 
 /*Navigation Listing*/
-ul{
+.navbar ul{
     list-style-type: none;
     display: inline;
  }
  
-ul a {
+.navbar ul a {
 margin: 0;
 padding:0;
 list-style:none;
@@ -95,7 +95,7 @@ display: inline;
  }
 
 
-li{
+.navbar li{
 float: left;
 list-style: none;
 display: inline-block;
@@ -103,7 +103,7 @@ display: inline;
 }
 
 
-li a{
+.navbar li a{
 color: white;
 font-size: 18px;
 margin-right: 25px;
@@ -131,7 +131,7 @@ button a{
 
 
 /*Animation Code for Nav. Listing*/
-a:link{
+.navbar a:link{
     color:rgb(255, 255, 255);
     text-decoration:none;
     display:block;
@@ -143,7 +143,7 @@ a:link{
     }
 
 
-a:hover{
+.navbar a:hover{
     text-decoration: underline;
     background-color: #5e747d
     }
@@ -170,7 +170,7 @@ a:hover{
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
     .navbar a {
-      float: left;
+      float: none;
       display: block;
     }
   }
